@@ -146,7 +146,7 @@ async def my_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main bot
 if __name__ == "__main__":
-    TOKEN = "8201866968:AAE53Dd_y4Tn6LrK0NjCtna1iHkOC5AXg_Y"  # Replace with your bot token
+    TOKEN = "YOUR_BOT_TOKEN"  # Replace with your bot token
     app = ApplicationBuilder().token(TOKEN).build()
 
     # Command handlers
@@ -161,3 +161,4 @@ if __name__ == "__main__":
 
     print("Bot is running...")
     app.run_polling()
+
